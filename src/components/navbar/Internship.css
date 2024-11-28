@@ -1,0 +1,125 @@
+
+#body
+{
+    background-color: #E8EAF6;
+}
+.div1
+{
+    margin-top: 50px;
+    height: 500px;
+    /* background-color: aqua; */
+    border-radius: 20px;
+}
+.div2
+{
+    margin-top: 50px;
+    height: 500px;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 3;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-shadow: 2px 3px 6px ;
+    box-shadow: 1px 0px 1px;
+
+    
+}
+.footer
+{
+    margin-top: 50px;
+    height: 300px;
+    background-color: #9FA8DA ;
+}
+.div1:hover
+{
+  border: 2px solid black; 
+  /* background-color: #9E9E9E;  */
+
+}
+.div2:hover
+{
+    border: 2px solid black; 
+  background-color: #9E9E9E;  
+}
+.div2 h4:hover
+{
+    text-shadow: 2px 3px 7px  ;
+
+}
+.div2 p:hover
+{
+    -webkit-text-stroke: 2px;
+    text-shadow: 2px 3px 7px darkblue;
+
+}
+
+.footer
+{
+   display: flex;
+    justify-content:space-around;
+   align-items: center;
+}
+.footer a
+{
+    color:rgb(9, 9, 123);
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+
+ #heading
+ {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style:normal;
+  color: darkblue;
+  font-size: 40px;
+  text-shadow: 4px 5px 4px black;
+
+ }
+ .div1
+ {
+    box-shadow: 4px 5px 4px black;
+    background-image: url(../women.avif);
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    position: center;
+    background-size: cover;
+    
+ }
+ .div1 h1
+ {
+    opacity: 1;
+    color:white;
+    -webkit-text-stroke: 6px  ;
+    text-shadow: 10px 10px 5px darkblue;
+    font-size: 80px;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5;
+    
+ }
+ .div3 
+ {
+    
+    margin-top: 35px;
+    text-align: center;
+    
+ }
+ .div3 a
+ {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+    -webkit-text-stroke: 0.5px;
+    background-color:rgb(207, 182, 230);
+    box-shadow: 2px 2px 3px;
+    border-radius: 5px;
+
+    
+    
+
+ }
+

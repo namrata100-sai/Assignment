@@ -1,0 +1,145 @@
+.img
+{
+      margin-top: 90px ; 
+     margin-left: 50px; 
+     height: 400px;
+     width: 80%;
+     overflow: hidden;
+    padding: 30px;
+   
+}
+#col-1
+{
+
+      background-color:#dadce0; 
+     height: 550px; 
+     border: 1px solid transparent;
+     overflow: hidden;
+     background-size: cover;
+}
+#col-2
+{
+     margin-top: 20px;
+     background-color: #EC407A;
+     border: 2px solid transparent;
+}
+#col-1:hover
+{
+    border-color:blue;
+}
+#col-2:hover
+{
+     border-color:whitesmoke;
+}
+
+.container-2
+{
+     margin-top: 40px;
+     
+}
+
+#card1
+{
+     background-color:#E1BEE7;
+     margin-bottom: 30px;
+     border-color: 8px solid transparent;
+}
+#card2
+{
+    margin-bottom: 30px;
+background-color:#E1BEE7 ;
+border-color: 8px solid transparent;
+}
+#card1:hover{
+    border-color:black ;
+}
+#card2:hover{
+     border-color: black;
+}
+
+.footer{
+     height: 300px;
+     background-color: #9FA8DA;
+}
+.footer
+{
+   display: flex;
+    justify-content:space-around;
+   align-items: center;
+}
+.footer a
+{
+    color:rgb(9, 9, 123);
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+#button {
+     height: 35px;
+     width: 125px;
+     background-color:#0B5ED7;
+     border-radius: 10px;
+     text-align: center;
+}
+#cards
+{
+     margin-top: 60px;
+
+}
+#card2
+{
+     margin-top: 60px;
+     background-image: url(../earth2.jpg);
+     object-fit: cover;
+     background-repeat: no-repeat;
+     background-size: cover;
+     box-shadow: 0px 0px 2px;
+}
+#card1
+{
+     margin-top: 60px;
+
+     background-image: url(../earth3.jpg);
+     color: white;
+     object-fit: cover;
+     background-repeat: no-repeat;
+     background-size: cover;
+     box-shadow: 0px 0px 2px;
+}
+.main
+{
+      background-image: url(../tech2.jpg); 
+     height: 100%;
+     width: 100%;
+     opacity: 0.9;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+;
+}
+.main:hover
+{
+     opacity:1;
+}
+#col-1
+{
+     height: 700px;
+     width: 100%;
+}
+#inside
+{
+     height: 95%;
+     width: 48%;
+     color: white;
+     text-align: center;
+     right: 0;
+     background-color: rgba(255, 255, 255, 0.199);
+     position:absolute;
+     backdrop-filter: blur(10px);
+     object-fit: cover;
+}
+#inside h1{
+     padding-top: 70px;
+     font-family:'Courier New', Courier, monospace;
+     font-size: 50px;
+     font-weight: bolder;
+}
